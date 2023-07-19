@@ -1,27 +1,68 @@
-body{
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
-.col-md-5{
-    margin-top: 150px !important;
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-input{
-    margin-top: 20px;
+.box
+{
+    padding: 20px 30px;
+    width: 300px;
+    height: 400px;
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+    background: rgba(49, 49, 49, .2);
+    border: 1px solid rgba(255, 255, 255, .5);
 }
-button{
-    margin-top: 20px !important;
-    float: left;
-     border: 3px solid green !important;
+.box .form
+{
+    padding: 10px 20px;
 }
-.sucess{
-    border: 3px solid green !important;
+.box .form h2
+{
+    text-align: center;
+    color: #fff;
 }
-.error{
-    border: 3px solid green !important;
+.box .form form
+{
+    margin-top: 50px;
+    align-items: center;
 }
-
-small{
-    color: green;
-    font-weight: bold;
-    margin: 5px;
-    text-align: start ;
+.box .form form .inputbox input
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #12151e;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.box .form form .inputbox span
+{
+    position: absolute;
+    transform: translateY(-80px);
+    font-size: 14px;
+    color: #fff;
+}
+.box .form form .sub
+{
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #0cc0df;
+    cursor: pointer;
+    font-size: 16px;
 }
