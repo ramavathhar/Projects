@@ -1,0 +1,27 @@
+<html>
+    <head>
+<TITLE> FORM VALIDATION</TITLE>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+ <LINK REL="STYLESHEET" HREF="style.css">
+    </head>
+    <body>
+        <div class="CONTAINER">
+            <div class="ROW JUSTIFY-CONTENT-CENTER">
+                <div class="COL-MD-5 shadow-lg p-3 mb-5 bg-white rounded">
+                    <H1>FORM VALIDATION</H1>
+                    <INPUT TYPE="TEXT" ID="username" CLASS="FORM-CONTROL" PLACEHOLDER="username">
+                    <SMALL ID="username-error"></SMALL>
+                    <INPUT TYPE="TEXT" ID="email" CLASS="FORM-CONTROL" PLACEHOLDER="email">
+                    <SMALL ID="email-error"></SMALL>
+                    <INPUT TYPE="TEXT" ID="password" CLASS="FORM-CONTROL" PLACEHOLDER="password">
+                    <SMALL ID="password-error"></SMALL>
+                    <INPUT TYPE="TEXT" ID="cpassword" CLASS="FORM-CONTROL" PLACEHOLDER="cpassword">
+                    <SMALL ID="cpassword-error"></SMALL>
+                    <BUTTON class="BTN BTN-PRIMAR" onclick="validate()" >SUBMIT</BUTTON>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
+<SCRIPT SRC="./index.js"></SCRIPT>
